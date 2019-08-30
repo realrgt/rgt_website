@@ -31,3 +31,5 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+
+// "homepage": "https://bradtraversy.github.io/modern_portfolio",

@@ -175,10 +175,13 @@ main {
     font-size: 1.5rem;
     background: #d6d0d0;
     padding: 0.5rem;
-    text-align: justify; }
+    text-align: justify;
+    line-height-step: 2pt; }
     .about-info .bio p {
-      font-size: 14pt;
+      font-size: 12pt;
       padding: 0 10px; }
+      .about-info .bio p a {
+        color: #222; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -294,4 +297,6 @@ main {
       margin-top: 1rem;
       font-size: 5rem; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .bio p {
+    font-size: 12pt; } }

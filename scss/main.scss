@@ -100,9 +100,15 @@ main {
     padding: 0.5rem;
     text-align: justify;
 
+    line-height-step: 2pt;
+
     p {
-      font-size: 14pt;
+      font-size: 12pt;
       padding: 0 10px;
+
+      a {
+        color: #222;
+      }
     }
 
   }

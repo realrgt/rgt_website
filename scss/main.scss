@@ -99,6 +99,12 @@ main {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     text-align: justify;
+
+    p {
+      font-size: 14pt;
+      padding: 0 10px;
+    }
+
   }
 
   .job-1 {

@@ -176,6 +176,9 @@ main {
     background: #d6d0d0;
     padding: 0.5rem;
     text-align: justify; }
+    .about-info .bio p {
+      font-size: 14pt;
+      padding: 0 10px; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {

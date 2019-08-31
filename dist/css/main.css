@@ -176,24 +176,22 @@ main {
     grid-area: bio;
     font-size: 1.5rem;
     background: #d6d0d0;
-    padding: 0.5rem;
-    text-align: justify;
-    line-height-step: 2pt; }
+    padding: 0.6rem;
+    text-align: justify; }
     .about-info .bio p {
-      font-size: 12pt;
-      padding: 0 10px; }
+      font-size: 12pt; }
       .about-info .bio p a {
         color: #222; }
+  .about-info .job {
+    background: #d6d0d0;
+    padding: 0.5rem;
+    border-bottom: #0f792a 5px solid; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
     grid-area: job2; }
   .about-info .job-3 {
     grid-area: job3; }
-  .about-info .job {
-    background: #d6d0d0;
-    padding: 0.5rem;
-    border-bottom: #0f792a 5px solid; }
 
 .projects {
   display: grid;
@@ -292,7 +290,7 @@ main {
 
 @media screen and (max-width: 500px) {
   main {
-    padding: 2rem; }
+    padding: 1rem; }
     main #home h1 {
       margin-top: 10vh; }
     main .lg-heading {
@@ -300,6 +298,9 @@ main {
       font-size: 3.5rem; }
   .projects {
     grid-template-columns: 1fr; }
+  .about-info .bio-image {
+    width: 230px;
+    height: 235px; }
   .bio p {
     font-size: 12pt; }
   .boxes div {

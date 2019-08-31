@@ -57,12 +57,14 @@ main {
     margin-top: 1rem;
 
     a {
-      color: #222;
+      color: $secondary-color;
+      // color: #222;
       padding: 0.4rem;
       @include easeOut;
 
       &:hover {
-        color: $secondary-color;
+        // color: $secondary-color;
+        color: #222;
       }
     }
   }

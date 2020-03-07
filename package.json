@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Rgt portfolio website",
   "main": "index.js",
-  "homepage": "https://realrgt.github.io/rgt-website",
+  "homepage": "https://realrgt.github.io/rgt_website",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
